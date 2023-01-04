@@ -3,7 +3,7 @@ import Link from "next/link";
 const hello = ({ characters }) => {
   return (
     <main>
-      <h1>List of dzops:</h1>
+      <h1>List of characters:</h1>
       <ul>
         {characters.map((character) => (
           <li key={character.id}>
